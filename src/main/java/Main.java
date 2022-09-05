@@ -38,7 +38,7 @@ public class Main {
                     Integer number = Integer.parseInt(textFromTextfield);
                     guess(number);
                 } catch (Exception error){
-                    text.setText("Bitte gebe eine Zahl.. Du Loser");
+                    text.setText("Bitte gebe eine Zahl ein.. Du Loser");
                 }
             }
         });
